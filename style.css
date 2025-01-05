@@ -6,11 +6,11 @@
 	text-decoration:none
 }
 body{
-    background: linear-gradient(to bottom, #f5f5f5, #ffffff);
-	overflow-x:hidden;
-    -webkit-text-size-adjust: none;
-    -webkit-font-smoothing: subpixel-antialiased;
+body {
+    background: linear-gradient(to bottom, #ffffff, #f4f5f8); /* Добавляем градиент */
     font-family: "Roboto", Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+    color: #333; /* Цвет текста */
 }
 :root{
 scroll-behavior: smooth;
