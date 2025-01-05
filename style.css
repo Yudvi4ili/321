@@ -67,18 +67,20 @@ scroll-behavior: smooth;
 }
 
 /*Основные настройки*/
-.navbar > ul li a{
- display: block;
- font-size: 14px;
- color: #000;
- text-decoration: none; 
- text-transform:uppercase;
- display:flex;
- padding:20px;
+.navbar > ul li a {
+    display: block;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px; /* Увеличиваем отступы */
+    border-radius: 5px; /* Добавляем скругленные углы */
+    transition: background-color 0.3s, color 0.3s; /* Плавные переходы */
 }
-
-
-
+.navbar > ul li a:hover, .navbar > ul li a.active {
+    background-color: #ff9800; /* Цвет фона при наведении */
+    color: #fff; /* Цвет текста при наведении */
+}
 
 /*Длина  в бок выпадающего меню*/
 .navbar li ul{
