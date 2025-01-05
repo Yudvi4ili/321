@@ -6,11 +6,10 @@
 	text-decoration:none
 }
 body{
-body {
-    background: linear-gradient(to bottom, #ffffff, #f4f5f8); /* Добавляем градиент */
+	overflow-x:hidden;
+    -webkit-text-size-adjust: none;
+    -webkit-font-smoothing: subpixel-antialiased;
     font-family: "Roboto", Helvetica, Arial, sans-serif;
-    overflow-x: hidden;
-    color: #333; /* Цвет текста */
 }
 :root{
 scroll-behavior: smooth;
@@ -51,11 +50,11 @@ scroll-behavior: smooth;
   z-index: 15; 
 }
 
-.navbar > ul {
-    display: flex;
-    gap: 15px; 
-    justify-content: center; 
-    padding: 10px; 
+.navbar > ul{
+  display: flex;
+  background-color: #fff;
+  justify-content: flex-end;
+  flex-direction: row;
 }
 
 .navbar > ul li{
@@ -67,20 +66,18 @@ scroll-behavior: smooth;
 }
 
 /*Основные настройки*/
-.navbar > ul li a {
-    display: block;
-    font-size: 14px;
-    color: #000;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 10px 20px; /* Увеличиваем отступы */
-    border-radius: 5px; /* Добавляем скругленные углы */
-    transition: background-color 0.3s, color 0.3s; /* Плавные переходы */
+.navbar > ul li a{
+ display: block;
+ font-size: 14px;
+ color: #000;
+ text-decoration: none; 
+ text-transform:uppercase;
+ display:flex;
+ padding:20px;
 }
-.navbar > ul li a:hover, .navbar > ul li a.active {
-    background-color: #ff9800; /* Цвет фона при наведении */
-    color: #fff; /* Цвет текста при наведении */
-}
+
+
+
 
 /*Длина  в бок выпадающего меню*/
 .navbar li ul{
@@ -654,10 +651,8 @@ text-align: center;
     background: #333;
     border: 2px solid #fff;
     transition: .33s;
-opacity:0.33;
-margin:5px;
-background-color: #ff9800; /* Акцентный цвет при наведении */
-transform: scale(1.2); /* Увеличиваем при наведении */
+	opacity:0.33;
+	margin:5px;
 }
 
 
