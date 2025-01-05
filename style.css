@@ -51,11 +51,11 @@ scroll-behavior: smooth;
   z-index: 15; 
 }
 
-.navbar > ul{
-  display: flex;
-  background-color: #fff;
-  justify-content: flex-end;
-  flex-direction: row;
+.navbar > ul {
+    display: flex;
+    gap: 15px; 
+    justify-content: center; 
+    padding: 10px; 
 }
 
 .navbar > ul li{
